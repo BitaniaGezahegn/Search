@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image</title>
+        <link rel="icon" href="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" type="image/png">
+        <link href="style-google-image.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="top-buttons">
+            <!--The Google Home Page(index) button-->
+                <a class="top-button" href=index.html>
+                    Google(index)
+                </a>
+            <!--The Advanced search button-->
+                <a class="top-button" href=advanced_search.html>
+                    Advanced Search
+                </a>
+            </div>
+            <div id="main">
+                <!--The Google Image LOGO-->
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image" class="logo">
+                <!--CS50's code-->
+                <form action="https://www.google.com/search" >        
+                <!--Search Bar-->
+                    <div id="search-bar">
+                        <input type="text" name="q" class="search" autocomplete="off" autofocus="autofocus">
+                        <input type="hidden" name="tbm" value="isch">
+                    </div>
+                    <div id= submit-button >
+                        <input type="submit" class="submit-button" value="Google search">
+                    </div>
+                </form>
+            </div>
+    </body>
+</html>

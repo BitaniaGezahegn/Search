@@ -1,0 +1,54 @@
+* {
+    margin:0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh
+}
+
+#top-buttons{
+    display: flex;
+    justify-content: right;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.top-button{
+    margin-right: 15px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgb(236, 234, 234);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    text-decoration: inherit;
+    box-shadow: inset 0 0 0 0 rgb(166, 166, 255);
+    transition: 0.1s;
+}
+
+.top-button:hover{
+    text-decoration: underline;
+    box-shadow: inset 150px 0 0 0 rgb(166, 166, 255);
+}
+
+
+#main{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.as-container{
+    display: flex;
+    margin: 10px 15px;
+    background-color: rgb(247, 247, 255);
+}
+.advanced-search{
+    color: rgb(220, 10, 19);
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
