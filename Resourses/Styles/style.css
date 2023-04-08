@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Nunito:wght@200&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@200&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, sans-serif;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.topNav
+{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.topNav a
+{
+    text-decoration: none;
+    color: #555;
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: .3s font-size ease-in-out;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+}
+.topNav a:hover
+{
+    color: #000;
+    font-size: 1.3em;
+    border: 1px solid #000;
+}
+.google
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.2em;
+    color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.google img
+{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
